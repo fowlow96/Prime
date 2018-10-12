@@ -1,0 +1,369 @@
+<html>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|IM+Fell+French+Canon+SC" rel="stylesheet">
+<script>function changeNavigation1(id) {document.getElementById('text1').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation(id) {document.getElementById('text2').innerHTML=document.getElementById(id).innerHTML}</script>
+<style type="text/css"> 
+
+::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #DBDBDB;}
+
+.tabs {
+width: 100%;
+height: 100%;
+display: block; 
+}
+
+#container {
+position: absolute; 
+top: 0%; 
+left: 0%; 
+height: 100%;
+width: 100%;
+background: url("https://i.imgur.com/5pX32pE.jpg"); 
+background-size: 100% 100%; 
+}
+
+h1 {
+font-size: 200%;
+color: #DBDBDB; 
+text-align: center; 
+font-family: 'IM Fell French Canon SC', serif;
+}
+
+h2 {
+font-size: 150%;
+color: #DBDBDB; 
+text-align: center; 
+font-family: 'IM Fell French Canon SC', serif;
+}
+
+#wave {
+position: fixed;
+top: 49%; 
+left: -10%; 
+height: 2%; 
+width: 150%;
+background: url("https://i.imgur.com/LR6FXbo.gif");
+background-size: 100% 100%;  
+}
+
+
+#pic {
+position: fixed;
+top: 10%;
+left: 42.5%; 
+width: 15%;
+height: 40%; 
+background: url("https://orig00.deviantart.net/b3a9/f/2015/316/a/5/betheone_remastered51vike_by_estookin-d9gguc7.jpg");
+background-size: 100% 100%; 
+border: 2px solid #ffffff; 
+}
+
+#cover {
+position: fixed;
+top: 10%;
+left: 42.5%; 
+width: 15%;
+height: 40%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%; 
+border: 2px solid #ffffff; 
+opacity: 0; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#cover:hover {
+background: url("https://i.imgur.com/KoF5WD7.png"); 
+background-size: 100% 100%; 
+opacity: 1; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#pic2 {
+position: fixed;
+top: 50%;
+left: 42.5%; 
+opacity: .5; 
+width: 15%;
+height: 40%; 
+background: url("https://i.imgur.com/PRdPI1I.png");
+background-size: 100% 100%;
+border: 2px solid #ffffff;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out; 
+}
+
+#cover2 {
+position: fixed;
+top: 50%;
+left: 42.5%; 
+width: 15%;
+height: 40%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+opacity: .5; 
+border: 2px solid #ffffff; 
+}
+
+#pic2:hover {
+background: url("https://i.imgur.com/9OwGMjm.jpg");
+background-size: 100% 100%;  
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#box1 {
+position: fixed;
+top: 55%;
+left: 1%;
+height: 40%;
+width: 40%; 
+background: rgba(0, 0, 0, 0.8);
+border: 2px solid #ffffff; 
+}
+
+#text1 {
+position: fixed; 
+top: 56%; 
+left: 1.5%; 
+height: 36.5%; 
+width: 38.15%;
+font-family: 'IBM Plex Serif', serif;
+font-size: 60%;
+color: #ffffff;
+overflow: auto;
+padding: 0.5%; 
+}
+
+#box2 {
+position: fixed;
+top: 5%;
+left: 59%;
+height: 40%;
+width: 40%; 
+background: rgba(0, 0, 0, 0.8);
+border: 2px solid #ffffff; 
+}
+
+#text2 {
+position: fixed; 
+top: 6%; 
+left: 59.5%; 
+height: 36.5%; 
+width: 38.15%;
+font-family: 'IBM Plex Serif', serif;
+font-size: 60%; 
+color: #ffffff;
+overflow: auto;
+padding: 0.5%;
+}
+
+#l1 {
+position: fixed;
+top: 5%;
+left: 0%;
+height: 8%;
+width: 4%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+border-top: 2px solid #ffffff;
+border-bottom: 2px solid #ffffff; 
+border-right: 2px solid #ffffff;
+text-align: center; 
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+font-size: 80%;
+}
+
+#l1:hover {
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+width: 8%; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#l2 {
+position: fixed;
+top: 17%;
+left: 0%;
+height: 8%;
+width: 4%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+border-top: 2px solid #ffffff;
+border-bottom: 2px solid #ffffff; 
+border-right: 2px solid #ffffff;
+text-align: center; 
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+font-size: 80%;
+}
+
+#l2:hover {
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+width: 8%; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#l3 {
+position: fixed;
+top: 29%;
+left: 0%;
+height: 8%;
+width: 4%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+border-top: 2px solid #ffffff;
+border-bottom: 2px solid #ffffff; 
+border-right: 2px solid #ffffff;
+text-align: center; 
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+font-size: 80%;
+}
+
+#l3:hover {
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+width: 8%; 
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#r3 {
+position: fixed;
+top: 87%;
+left: 96%;
+height: 8%;
+width: 4%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+border-top: 2px solid #ffffff;
+border-bottom: 2px solid #ffffff; 
+border-left: 2px solid #ffffff;
+text-align: center; 
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+font-size: 80%;
+}
+
+#r3:hover {
+width: 8%; 
+left: 92%;
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+
+#r2 {
+position: fixed;
+top: 75%;
+left: 96%;
+height: 8%;
+width: 4%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+border-top: 2px solid #ffffff;
+border-bottom: 2px solid #ffffff; 
+border-left: 2px solid #ffffff;
+text-align: center; 
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+font-size: 80%;
+}
+
+#r2:hover {
+width: 8%; 
+left: 92%;
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#r1 {
+position: fixed;
+top: 63%;
+left: 96%;
+height: 8%;
+width: 4%; 
+background: url("https://78.media.tumblr.com/0591fa44266f151c9e015e324495a500/tumblr_owbxnjSnoD1wnoat1o1_500.gif");
+background-size: 100% 100%;
+border-top: 2px solid #ffffff;
+border-bottom: 2px solid #ffffff; 
+border-left: 2px solid #ffffff;
+text-align: center; 
+-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+font-size: 80%;
+}
+
+#r1:hover {
+width: 8%; 
+left: 92%;
+-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#noble,#aquamancy,#universals,#puriel,#wizardry,#inventory {
+display: none; 
+}
+
+</style>
+<div id="container">
+<div id="box1"></div><div id="text1"><h1>Magical Overview</h1>The following character will be used as a major N.P.C within future story events in the "Ulreich University" group role play. As such, all information on the profile has been stripped until he is cannonically revealed. To learn more about Ulreich, visit the group's website by <a target="_blank" href="https://www.ulreich.weebly.com">clicking here.</a></div>
+<div id="box2"></div><div id="text2"><h1>Character Overview</h1>The following character will be used as a major N.P.C within future story events in the "Ulreich University" group role play. As such, all information on the profile has been stripped until he is cannonically revealed. To learn more about Ulreich, visit the group's website by <a target="_blank" href="https://www.ulreich.weebly.com">clicking here.</a></div>
+<div id="pic"></div><div id="cover"></div><div id="cover2"></div><div id="Pic2"></div><div id="wave"></div>
+<div id="l1"><span class="tabs" onClick="changeNavigation ('noble')"><h1>I.</h1></span></div><div id="w1"></div>
+<div id="l2"><span class="tabs" onClick="changeNavigation ('aquamancy')"><h1>II.</h1></span></div>
+<div id="l3"><span class="tabs" onClick="changeNavigation ('universals')"><h1>III.</h1></span></div>
+<div id="r3"><span class="tabs" onClick="changeNavigation1 ('inventory')"><h1>III.</h1></span></div>
+<div id="r2"><span class="tabs" onClick="changeNavigation1 ('wizardry')"><h1>II.</h1></span></div>
+<div id="r1"><span class="tabs" onClick="changeNavigation1 ('puriel')"><h1>I.</h1></span></div>
+<div id="noble"><h1>Appearance Information</h1></div>
+<div id="aquamancy"><h1>Mentality/Personality Information</h1></div>
+<div id="universals"><h1>Character History</h1></div>
+<div id="puriel"><h1>Magical Tree #1</h1></div> 
+<div id="wizardry"><h1>Magical Tree #2</h1></div>
+<div id="inventory"><h1>Magical Tree #3</h1></div>
+</div>
+<embed style="height: 0%; width: 0%;"src="puriel.mp3" autostart="true" loop="true">
+</html> 
